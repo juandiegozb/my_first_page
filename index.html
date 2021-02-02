@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title main page -->
+    <title>my first form</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+
+<body>
+
+    <div>
+        <nav class="nav">
+            <!-- logo -->
+            <img class="img-nav" src="./public/img/nav-logo.png" alt="logo-form">
+            <!-- tabs -->
+            <ul class="nav-link">
+                <li><a href="#contact-us">contact us</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <h1>Contact us</h1>
+
+        <form class="form">
+
+            <div class="input">
+                <label for="name">Name: </label>
+                <input type="text" name="name" placeholder="enter your name">
+            </div>
+            <br>
+            <div class="input">
+                <label for="lastname">Lastname: </label>
+                <input type="text" name="lastname" placeholder="enter your lastname">
+            </div>
+            <br>
+            <div class="input">
+                <label for="phone">Phone: </label>
+                <input type="number" name="phone" placeholder="enter your phone (allowed only numbers)">
+            </div>
+            <br>
+            <div class="input">
+                <label for="address">Address: </label>
+                <input type="text" name="address" placeholder="enter your address">
+            </div>
+            <br>
+            <div class="input">
+                <label for="email">Email: </label>
+                <input type="email" name="email" placeholder="enter your email">
+            </div>
+            <br>
+            <label for="subject">Subject: </label>
+            <textarea name="subject" id="" cols="30" rows="4" placeholder="enter any subject"></textarea>
+        </form>
+
+    </div>
+    </div>
+
+</body>
+
+</html>
